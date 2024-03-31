@@ -2,7 +2,11 @@ import React from "react";
 import Link from "next/link";
 import { Bars3BottomRightIcon } from "@heroicons/react/16/solid";
 
-const Nav = () => {
+interface Props {
+  openNav: () => void;
+}
+
+const Nav = ({ openNav }: Props) => {
   return (
     <div className="h-[12vh] bg-white shadow-md">
       <div className="w-[85%] flex items-center justify-between mx-auto h-[12vh]">
@@ -30,7 +34,10 @@ const Nav = () => {
             <Link href="/">Contact us</Link>
           </li>
         </ul>
-        <Bars3BottomRightIcon className="w-[1.5rem] lg:hidden h-[1.5rem text-cyan-400 cursor-pointer" />
+        <Bars3BottomRightIcon
+          onClick={openNav}
+          className="w-[1.5rem] lg:hidden h-[1.5rem text-cyan-400 cursor-pointer"
+        />
       </div>
     </div>
   );
