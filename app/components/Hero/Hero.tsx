@@ -10,6 +10,7 @@ const Hero = () => {
       <div className="grid grid-cols-1 lg:grid-cols-5 items-center w-[80%] mx-auto ">
         <div className="col-span-2 ">
           <h1
+            data-aos="zoom-out-down"
             className="text-[27px] md:text-[35px] lg:text-[40px] mb-[1rem] font-bold text-[#03045E]
            leading-[2.4rem] md:leading-[4rem]"
           >
