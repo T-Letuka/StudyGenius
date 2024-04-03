@@ -4,6 +4,7 @@ import Cards from "./FeatureCards/Cards";
 import learning from "@/public/learning.png";
 import Quiz from "@/public/Quiz.png";
 import studyt from "@/public/studyt.png";
+import Link from "next/link";
 
 const Features = () => {
   return (
@@ -17,7 +18,7 @@ const Features = () => {
           <Cards title="Study Techniques" image={studyt.src} />
         </div>
         <div>
-          <Cards title="Quiz" image={Quiz.src} />
+          <Cards title="Quiz" image={Quiz.src} pages="/StudyTechniques" />
         </div>
         <div>
           <Cards title="Learning Styles" image={learning.src} />

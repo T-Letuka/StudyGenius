@@ -27,7 +27,7 @@ const Hero = () => {
             things up like never before!
           </p>
           <div className="flex items-center space-x-4 md:space-x-6 mt-2">
-            <BlueButton text="Get Started" />
+            <BlueButton text="Take Quiz" />
             <YellowButton text="Explore Site" />
           </div>
         </div>
