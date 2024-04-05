@@ -24,9 +24,9 @@ const Hero = ({ handleScrollToAbout }: Props) => {
             to tailor your study approach to suit your individual preferences
             and strengths.
             <br />
-            You might be thinking, "Learning styles? Study techniques?
-            Yawn-fest!" But fear not, dear friend, because we're about to spice
-            things up like never before!
+            You might be thinking, &quot;Learning styles? Study techniques?
+            Yawn-fest!&quot; But fear not, dear friend, because we&quot;re about
+            to spice things up like never before!
           </p>
           <div className="flex items-center space-x-4 md:space-x-6 mt-2">
             <button

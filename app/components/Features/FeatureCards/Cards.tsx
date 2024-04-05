@@ -23,9 +23,9 @@ const Cards = ({ title, image }: Props) => {
       </h1>
       <p className="mt-[1rem] text-white opacity-90 text-[15px] pb-[15px]">
         Think of it as a sneak peek into the world of effective studying. Here,
-        we've gathered the most popular, tried-and-true methods that students
-        swear by to ace their exams. So, grab a seat, take a look around, and
-        get ready to level up your study game!
+        we&apos;ve gathered the most popular, tried-and-true methods that
+        students swear by to ace their exams. So, grab a seat, take a look
+        around, and get ready to level up your study game!
       </p>
     </div>
   );

@@ -16,13 +16,13 @@ const page = () => {
             Cleverly Pondering the Art of Studious Endeavors
           </h1>
           <p className="text-[15px] md:text-[17px] mb-[2rem] text-black opacity-90 font-[400]">
-            Ah, the wacky world of study techniques! It's like trying to crack a
-            secret code or solve a Rubik's Cube blindfolded—challenging, yet
-            strangely thrilling. <br />
+            Ah, the wacky world of study techniques! It&apos;s like trying to
+            crack a secret code or solve a Rubik&apos;s Cube
+            blindfolded—challenging, yet strangely thrilling. <br />
             <br />
             Picture this: you, armed with highlighters and flashcards, ready to
             conquer the academic jungle like a fearless explorer with a GPS set
-            to "brain power." <br />
+            to <em>brain power.</em> <br />
             <br />
             So, buckle up and get ready for a wild ride through the land of
             learning hacks and scholarly shenanigans.

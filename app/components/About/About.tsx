@@ -27,11 +27,11 @@ const About = ({ aboutRef }: Props) => {
           <p className="mt-[1.5rem] mb-[1.5rem] text-black opacity-90 text-[18px] md:text-[20px] ">
             Welcome to this little corner of the internet! Picture this: back in
             my freshman year, I was swimming in a sea of confusion about how to
-            study smart, not just hard. So, here we are! Take this quiz and
-            let’s crack the code together on how to manage your studies like a
-            boss. Oh, and don’t forget, taking breaks and catching some Z's is
-            just as crucial as hitting the books. So, let’s dive in and find
-            some study hacks, shall we?
+            study smart, not just hard. So, here we are! Take this quiz and let
+            &apos;s crack the code together on how to manage your studies like a
+            boss. Oh, and don &apos;t forget, taking breaks and catching some
+            Z&apos;s is just as crucial as hitting the books. So, let&apos;s
+            dive in and find some study hacks, shall we?
           </p>
         </div>
       </div>
