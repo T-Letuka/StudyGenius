@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-[80%] mx-auto mt-[1rem] text-[15px] opacity-75 text-center">
-        ©2024 Developed by Tisetso Letuka❤
+        ©2024 Developed by TL❤
       </div>
     </div>
   );
