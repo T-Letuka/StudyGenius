@@ -4,13 +4,13 @@ interface Props {
   onClick: () => void;
 }
 
-const YellowButton = ({ text, onClick }: Props) => {
+const RedButton = ({ text, onClick }: Props) => {
   return (
     <button
-      className="rounded-md px-4 py-1 text-[15px] md:px-8 md:py-2.5 overflow-hidden group bg-[#ffba08] 
+      className="rounded-md px-4 py-1 text-[15px] md:px-8 md:py-2.5 overflow-hidden group bg-[#ff0808] 
       relative hover:bg-gradient-to-r 
-    hover:from-bg-[#ffba08] hover:to-bg-[#e85d04] text-black hover:ring-2 hover:ring-offset-2
-     hover:ring-yellow-600
+    hover:from-bg-[#ffba08] hover:to-bg-[#e85d04] text-white hover:ring-2 hover:ring-offset-2
+     hover:ring-red-600
     transition-all ease-out duration-300"
       onClick={onClick}
     >
@@ -23,4 +23,4 @@ const YellowButton = ({ text, onClick }: Props) => {
   );
 };
 
-export default YellowButton;
+export default RedButton;
