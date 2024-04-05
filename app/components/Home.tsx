@@ -1,14 +1,20 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useRef } from "react";
 import Hero from "./Hero/Hero";
 import Features from "./Features/Features";
 import About from "./About/About";
 
 const Home = () => {
+  const aboutRef = useRef<HTMLDivElement>(null);
+
+  const scrollToAbout = () => {
+    aboutRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div>
-      <Hero />
-      <About />
+      <Hero handleScrollToAbout={scrollToAbout} />
+      <About aboutRef={aboutRef} />
       <Features />
     </div>
   );

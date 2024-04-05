@@ -23,10 +23,10 @@ const Cards = ({ title, image }: Props) => {
         {title}
       </h1>
       <p className="mt-[1rem] text-white opacity-90 text-[15px] pb-[15px]">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-        similique eos architecto, distinctio quia provident facere corporis
-        commodi minus, at dolores et quam fugiat ad! A eaque tempora beatae
-        mollitia?
+        Think of it as a sneak peek into the world of effective studying. Here,
+        we've gathered the most popular, tried-and-true methods that students
+        swear by to ace their exams. So, grab a seat, take a look around, and
+        get ready to level up your study game!
       </p>
     </div>
   );
