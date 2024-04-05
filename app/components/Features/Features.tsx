@@ -4,7 +4,6 @@ import Cards from "./FeatureCards/Cards";
 import learning from "@/public/learning.png";
 import Quiz from "@/public/Quiz.png";
 import studyt from "@/public/studyt.png";
-import Link from "next/link";
 
 const Features = () => {
   return (

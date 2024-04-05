@@ -57,7 +57,6 @@ const page = () => {
           <a
             href="https://youtu.be/tkm0TNFzIeg?si=ciHuvczFfbbGHjRG"
             target="_blank"
-            rel="noopener noreferrer"
             className="block mb-2 bg-[#CAF0F8] hover:bg-blue-600 text-black font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out"
           >
             Visit for Feynman Technique
@@ -65,7 +64,6 @@ const page = () => {
           <a
             href="https://youtu.be/mow3sfGb7B8?si=ZdO27ZxxO-i9qq6p"
             target="_blank"
-            rel="noopener noreferrer"
             className="block mb-2 bg-[#90E0EF] hover:bg-blue-600 text-black font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out"
           >
             Doodling Method
@@ -73,7 +71,6 @@ const page = () => {
           <a
             href="https://youtu.be/SVb7fGRuRMU?si=-wlVeLr3ajvi7U1L"
             target="_blank"
-            rel="noopener noreferrer"
             className="block mb-2 bg-[#00B4D8] hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out"
           >
             University hacks
@@ -81,7 +78,6 @@ const page = () => {
           <a
             href="https://youtu.be/4RkWiNO3iq8?si=fHe0r1wuxXUtPqy1"
             target="_blank"
-            rel="noopener noreferrer"
             className="block mb-2 bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out"
           >
             Ways To study smarter
@@ -89,7 +85,6 @@ const page = () => {
           <a
             href="https://youtu.be/bd3qrBUbpSE?si=XKm2Xx551-m-XIga"
             target="_blank"
-            rel="noopener noreferrer"
             className="block mb-2 bg-[#0077B6] hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out"
           >
             Matric tips and ticks
@@ -97,7 +92,6 @@ const page = () => {
           <a
             href="https://youtu.be/Bm4tjMNlGK8?si=uffdeIpssT7uCq-_"
             target="_blank"
-            rel="noopener noreferrer"
             className="block mb-2 bg-[#03045E] hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out"
           >
             University hacks 2
