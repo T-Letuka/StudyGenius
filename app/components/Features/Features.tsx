@@ -18,7 +18,7 @@ const Features = () => {
           <Cards title="Study Techniques" image={studyt.src} />
         </div>
         <div>
-          <Cards title="Quiz" image={Quiz.src} pages="/StudyTechniques" />
+          <Cards title="Quiz" image={Quiz.src} />
         </div>
         <div>
           <Cards title="Learning Styles" image={learning.src} />
